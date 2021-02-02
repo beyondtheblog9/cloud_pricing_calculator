@@ -10,7 +10,7 @@ const Header = styled.div`
     top: 0px;
 
     background: #FDFDFD;
-  `;
+`;
 const Logo = styled.div`
     position: relative;
     height: 44px;
