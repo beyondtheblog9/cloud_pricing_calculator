@@ -5,7 +5,7 @@ import heroimg from "../../assets/hero_image.svg";
 import line from "../../assets/line.svg";
 
 const ScreenHeight = styled.div`
-  height: 90vh;
+    height: 90vh;
 `;
 const Heading1 = styled.h1`
     position: absolute;
@@ -23,7 +23,7 @@ const Heading1 = styled.h1`
     display: flex;
     align-items: left;
     letter-spacing: 0.01em;
-  `;
+`;
 const Heading2 = styled.h2`
 
 position: absolute;

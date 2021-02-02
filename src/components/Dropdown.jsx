@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const SelectElement = styled.select`
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1em;
     font-family: Montserrat, Arial, sans-serif;
 	
 	box-shadow: 0 5px 12px rgba(0,0,0,0.4);
@@ -25,7 +25,7 @@ const CustomSelect = styled.div`
 		display: block;
 		background: #3b3c47;
 		height: 100%;
-		width: 4em;
+		width: 3em;
 		pointer-events: none;
 	}
 	.custom-arrow::before,
@@ -72,13 +72,13 @@ class Dropdown extends React.Component {
         this.changePlatform = this.changePlatform.bind(this);
         this.changeService = this.changeService.bind(this);
 	}
-  
+
 	componentDidMount() {
 		this.setState({
 			platforms : [
-				{ name: 'Amazon Web Services', services: ['AWS Lambda', 'Amazon EC2', 'AmazonEKS', 'Amazon DynamoDB', 'Amazon Relational Database Service'] },
-				{ name: 'Google Cloud Platform', services: ['Google App Engine', 'Google Compute Engine', 'Google Kubernetes Engine', 'Google Cloud Bigtable', 'Google Cloud SQL'] },
-				{ name: 'Microsoft Azure', services: ['Azure Web Apps', 'Azure Virtual Machines', 'Azure Kubernetes Service', 'Azure CosmosDB', 'Azure SQL'] }
+				{ name: 'Amazon Web Services', services: ['Amazon EC2', 'Amazon EKS', 'Amazon DynamoDB', 'Amazon Relational Database Service'] },
+				{ name: 'Google Cloud Platform', services: ['Google Compute Engine', 'Google Kubernetes Engine', 'Google Cloud Bigtable', 'Google Cloud SQL'] },
+				{ name: 'Microsoft Azure', services: ['Azure Virtual Machines', 'Azure Kubernetes Service', 'Azure CosmosDB', 'Azure SQL'] }
 			]
 		});
 	}
