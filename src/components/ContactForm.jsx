@@ -6,14 +6,14 @@ import contactBg from "../../assets/images/email-pattern.png";
 import contactImage from "../../assets/ContactForm-img.svg";
 
 const ScreenHeight = styled.div`
-  height: 93vh;
+  height: 121vh;
   background-image: url(${contactBg});
 `;
 const Heading1 = styled.h1`
     position: absolute;
     width: 603px;
     height: 0px;
-    left: 660px;
+    left: 520px;
     top: 150px;
 
     font-family: Montserrat;
@@ -33,7 +33,7 @@ const FormLayout = styled.div`
     position: absolute;
     width: 604px;
     height: 770px;
-    left: 658px;
+    left: 518px;
     top: 213px;
 
     background: #FFFFFF;

@@ -4,8 +4,8 @@ import { Link } from 'gatsby';
 
 const Header = styled.div`
     position: relative;
-    width: 1920px;
-    height: 128px;
+    width: 100%;
+    height: 88px;
     left: 0px;
     top: 0px;
 
@@ -14,9 +14,8 @@ const Header = styled.div`
 const Logo = styled.div`
     position: relative;
     height: 44px;
-    left: 180px;
-    right: 1558px;
-    top: 42px;
+    left: 140px;
+    top: 28px;
 
     font-family: "Montserrat", Arial, sans-serif;
     font-style: normal;
@@ -37,9 +36,9 @@ const Menu = styled.div`
 
     position: absolute;
     width: 638px;
-    height: 55px;
+    height: 26px;
     left: 522px;
-    top: 37px;
+    top: 28px;
 `;
 const StyledLink = styled(props => <Link {...props} />)`
     color: inherit; 
@@ -64,17 +63,17 @@ const ContactButton = styled.button`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 13px 22px;
+    padding: 13px 19px;
 
     position: absolute;
-    width: 240px;
+    width: 210px;
     height: 70px;
-    right: 180px;
-    top: 29px;
+    right: 120px;
+    top: 14px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 19px;
     line-height: 33px;
     padding: 0px 50px;
     border: none;

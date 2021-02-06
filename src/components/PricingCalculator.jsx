@@ -24,7 +24,7 @@ const PriceScreen = styled.div`
         margin: 0 0 0 10px;
         border-spacing: 0.6rem;
         td{
-            padding: 0.5rem;
+            padding: 0.7rem;
         }
     }
 `;

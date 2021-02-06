@@ -9,15 +9,15 @@ const ScreenHeight = styled.div`
 `;
 const Heading1 = styled.h1`
     position: absolute;
-    width: 829px;
+    width: 710px;
     height: 401px;
-    left: 268px;
-    top: 259px;
+    left: 168px;
+    top: 162px;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 63px;
+    font-size: 52px;
     text-align: left;
     line-height: 77px;
     display: flex;
@@ -27,10 +27,10 @@ const Heading1 = styled.h1`
 const Heading2 = styled.h2`
 
 position: absolute;
-width: 829px;
+width: 660px;
 height: 181px;
-left: 268px;
-top: 659px;
+left: 168px;
+top: 499px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -47,15 +47,15 @@ const BackgroundImg = styled.img`
     position: absolute;
     width: 477px;
     height: 581px;
-    left: 1261px;
-    top: 259px;
+    left: 919px;
+    top: 159px;
 `;
 const LineImg = styled.img`
     position: absolute;
     width: 166px;
     height: 30px;
-    left: 273px;
-    top: 613px;
+    left: 173px;
+    top: 499px;
 `;
 
 const HeroWrap = () => {
